@@ -22,7 +22,7 @@
 	--avatar-roundness: 50%;
 	--background-shading: 100%;
 	--background-overlay: rgba(0, 0, 0, .6);
-	--app-bg: url(https://i.imgur.com/U8bSjj5.jpg);
+	--background-image: url(https://i.imgur.com/U8bSjj5.jpg);
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 8px;
@@ -83,7 +83,7 @@
 }
 
 .appMount-3lHmkl {
-  background-image: var(--app-bg);
+  background-image: var(--background-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
