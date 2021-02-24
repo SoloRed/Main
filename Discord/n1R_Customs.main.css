@@ -49,6 +49,9 @@
 	--sidebar-color: rgba(0,0,0,0.6);
 	--sidebar-blur: 12px;
 	--messages-color: rgba(0,0,0,0.4);
+  --background-primary: transparent;
+  --background-modifier-hover: rgba(255,255,255,0.075);
+  --background-modifier-selected: rgba(255,255,255,0.125);
 	--backdrop-overlay: rgba(0, 0, 0, .8);
 	--backdrop-image: var(--background-image);
 	--backdrop-position: var(--background-position);
@@ -127,6 +130,18 @@
 
 .container-2lgZY8 .base-3dtUhz {
 	border-radius: 0
+}
+
+.app-2rEoOp, .bg-h5JY_x {
+    background-color: transparent;
+}
+
+.standardSidebarView-3F1I7i>.contentRegion-3nDuYy {
+    background: rgba(0,0,0,.3)!important;
+}
+
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
+    background: rgba(0,0,0,.4)!important;
 }
 
 .backdrop-1wrmKB:before {
